@@ -31,9 +31,8 @@ Let’s be honest—**ScareCrow VM** was a great idea, but not everyone can get 
 To get started with VMFake, clone the repository and install the necessary dependencies:
 
 
-git clone https://github.com/Germanized/VMFake.git
+git clone https://github.com/Germanized/Fake-Vm.git
 cd VMFake
-pip install -r requirements.txt
 🏗️ Usage
 Run the script to start simulating your virtual machine environment:
 
@@ -84,13 +83,10 @@ Got questions or feedback? Reach out to us at germanized@example.com or open an 
 🎨 Screenshots
 Here’s a sneak peek at VMFake in action!
 
- <!-- Replace with your screenshot -->
+![screenshot](https://github.com/Germanized/Fake-Vm/blob/main/Screenshot.png)
 
 🌐 Social Media
 Stay updated with the latest news and updates:
 
-Twitter
-Facebook
-LinkedIn
-🤖 Join the Community!
-Be a part of the VMFake community on Discord or Reddit and share your experiences!
+guns.lol/germanized
+https://discord.gg/yrr3QERx9d
