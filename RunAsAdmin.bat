@@ -1,3 +1,3 @@
 @echo off
-C:\Users\darth\Downloads\VMFake\VMfake.py
+(your own path to your PY)
 pause
