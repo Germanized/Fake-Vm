@@ -78,7 +78,7 @@ Special thanks to:
 ScareCrow VM for being a great reference (and a lesson in why open-source is awesome!). 👊
 The Germanized Team for making this project possible! 🇩🇪
 📧 Contact
-Got questions or feedback? Reach out to us at germanized@example.com or open an issue on GitHub!
+Got questions or feedback? Reach out to me at github pls if you have any questions concerns or issues
 
 🎨 Screenshots
 Here’s a sneak peek at VMFake in action!
