@@ -3,7 +3,6 @@ import sys
 import time
 import winreg as reg
 
-# ANSI escape codes for text colors
 CYAN = "\033[96m"
 DARK_BLUE = "\033[34m"
 RESET = "\033[0m"
@@ -65,13 +64,12 @@ def spinning_jack_o_lantern_animation():
 
     loading_text = ["By Germanized Loading.  ", "By Germanized Loading.. ", "By Germanized Loading..."]
     start_time = time.time()
-    end_time = start_time + 7  # Animation duration of 7 seconds
+    end_time = start_time + 7  
     while time.time() < end_time:
-        # Determine the elapsed time and calculate the color gradient
         elapsed = time.time() - start_time
-        if elapsed < 2.333:  # 1/3 of the way, fade from cyan to dark blue
+        if elapsed < 2.333:  
             color = CYAN
-        elif elapsed < 4.666:  # 2/3 of the way, fade from dark blue to cyan
+        elif elapsed < 4.666:  
             color = DARK_BLUE
         else:  # Fade out
             color = RESET
@@ -89,11 +87,8 @@ def spinning_jack_o_lantern_animation():
 
 def create_key(path, name, value, type=reg.REG_SZ):
     try:
-        # Open the registry key
         key = reg.CreateKeyEx(reg.HKEY_LOCAL_MACHINE, path, 0, reg.KEY_SET_VALUE)
-        # Set the registry value
         reg.SetValueEx(key, name, 0, type, value)
-        # Close the registry key
         reg.CloseKey(key)
         print(f"{CYAN}Successfully created key: {path}\\{name}{RESET}")
     except PermissionError:
@@ -203,7 +198,7 @@ def add_vm_keys():
     ]
 
     for path, name, value, *rest in vm_registry_keys:
-        type = reg.REG_SZ  # Default type
+        type = reg.REG_SZ  
         if rest:
             type = rest[0]
         create_key(path, name, value, type)
