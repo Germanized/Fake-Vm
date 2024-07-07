@@ -2,7 +2,7 @@
 
 Welcome to **VMFake**, the coolest, most powerful tool for simulating a virtual machine environment right from your Python script! 🎉 Whether you’re a developer, a security researcher, or just a curious tech enthusiast, you’ve come to the right place! 
 
-![VMFake Logo](https://via.placeholder.com/500x200.png?text=VMFake+Logo)  <!-- Replace with your logo -->
+![VMFake Logo](https://github.com/Germanized/Fake-Vm/blob/main/VMFAKE.png)
 
 ## 🚀 **What is VMFake?**
 
